@@ -1,0 +1,16 @@
+
+
+        #passwordInput {
+            width: 200px;
+            padding: 8px;
+            margin-bottom: 10px;
+            background-color: black; /* Set the background color to black */
+            color: white; /* Set the text color to white */
+            border: 1px solid #ccc; /* Add a border for better visibility */
+        }
+        
+body{
+    background-image: url('https://images.wallpapersden.com/image/download/macos-12-monterey-stock-light_bGxsaGmUmZqaraWkpJRobWllrWdma2U.jpg');
+    height: 100%;
+    background-size: cover;
+}
