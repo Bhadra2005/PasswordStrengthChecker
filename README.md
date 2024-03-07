@@ -85,28 +85,5 @@ By following these steps and making adjustments as needed, you can configure the
 
 ## How to Run
 
-1. Set Up a Development Environment:
-   
-   Ensure you have a text editor or an integrated development environment (IDE) installed on your computer. Popular choices include Visual Studio Code, Sublime Text, Atom, or Notepad++. Additionally, make sure you have a modern web browser installed, such as Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge.
-
-2. Open the HTML File:
-   
-   Save the provided HTML code in a file with the extension .html, for example, password_checker.html. Open the HTML file in your chosen text editor or IDE.
-
-3. Configure API Keys (if necessary):
-   
-   If the website uses external APIs such as quotable.io or weatherapi.com, make sure you have obtained the required API keys and replace the placeholders in the JavaScript code with your actual API keys.
-
-4. Save Changes:
-   
-   Save any modifications you made to the HTML, CSS, or JavaScript files.
-
-5. Open in a Web Browser:
-   
-   Locate the HTML file you saved in your file explorer. Right-click on the file and choose "Open with" and select your preferred web browser, or simply double-click the file to open it in your default browser.
-
-6. Interact with the Website:
-   
-   Once the website opens in your web browser, you can interact with it by entering passwords into the input field, generating passwords, and exploring its various features. If prompted, grant permission for the website to access your location to display weather information.
-
-By following these steps, you can run the Password Strength Checker website locally on your computer and explore its functionality.
+1. Clone the repository `https://github.com/Bhadra2005/PasswordStrengthChecker.git`
+2. Run `index.html`
