@@ -260,7 +260,7 @@
 
 
         function displayWeather(latitude, longitude) {
-    fetch(`http://api.weatherapi.com/v1/current.json?key=2f4b682647214cb08c2213623240603&q=${latitude},${longitude}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=2f4b682647214cb08c2213623240603&q=${latitude},${longitude}`)
         .then(response => response.json())
         .then(data => {
             var locationName = data.location.name;
