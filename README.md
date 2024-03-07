@@ -15,7 +15,7 @@ The website is used to check the strength of a password. It counts total number 
 #### Get all items
 
 ```http
-  fetch('http://api.weatherapi.com/v1/current.json?key=2f4b682647214cb08c2213623240603&q=${latitude},${longitude}')
+https://api.weatherapi.com/v1/current.json?key=2f4b682647214cb08c2213623240603&q=${latitude},${longitude}')
 ```
 
 | Parameter | Type     | Description                |
@@ -25,7 +25,7 @@ The website is used to check the strength of a password. It counts total number 
 #### Get item
 
 ```http
-  fetch('https://api.quotable.io/random')
+  https://api.quotable.io/random
 
 ```
 
