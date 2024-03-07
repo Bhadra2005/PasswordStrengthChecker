@@ -1,4 +1,4 @@
-# Project Name
+# PassCheck
 
 The provided HTML document represents a Password Strength Checker website with additional features such as password generation and weather information display. Here's a detailed description of its functionality:
 
