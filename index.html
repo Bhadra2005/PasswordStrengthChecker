@@ -125,6 +125,30 @@
     </div>
 
     <script>
+        window.onload = function () {
+    document.getElementById('passwordDialog').style.display = 'flex';
+
+    // Fetch location and display weather
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            position => {
+                const latitude = position.coords.latitude;
+                const longitude = position.coords.longitude;
+                displayWeather(latitude, longitude);
+            },
+            error => {
+                console.error('Error getting location:', error);
+                document.getElementById('locationName').textContent = 'Error fetching location';
+                document.getElementById('weatherData').textContent = 'Weather data unavailable';
+            }
+        );
+    } else {
+        console.error('Geolocation is not supported by this browser.');
+        document.getElementById('locationName').textContent = 'Geolocation not supported';
+        document.getElementById('weatherData').textContent = 'Weather data unavailable';
+    }
+}
+
         function countOccurrences(str, pattern) {
             return (str.match(pattern) || []).length;
         }
